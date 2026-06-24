@@ -14,17 +14,18 @@ De skills in `.claude/skills/` begeleiden ontwikkelaars stap voor stap langs rel
 
 | Skill | Omschrijving |
 |---|---|
-| `master-skill` | Startpunt – bepaalt welke skills relevant zijn |
-| `skill-EU-AI-act` | Classificatie en verplichtingen onder de EU AI Act |
-| `skill-Algoritmeregister` | Publicatie in het Nederlandse Algoritmeregister |ß
-| `skill-privacy-anonymisation` | AVG-conforme verwerking van persoonsgegevens |
-| `skill-human-in-the-loop` | Menselijk toezicht inrichten |
-| `skill-IAMA` | Impact Assessment Mensenrechten en Algoritmen |
-| `skill-rag-pijplijn` | RAG-architectuur opzetten |
-| `skill-rag-evaluatie` | Kwaliteitsbeoordeling van RAG-systemen |
-| `skill-kleinste-model` | Modelkeuze optimaliseren |
-| `skill-ui-huisstijl` | Rijkshuisstijl toepassen |
-| `skill-wcag` | Toegankelijkheid (WCAG) |
+| `master-skill` | Analyseert de use case en bepaalt welke skills in welke volgorde relevant zijn |
+| `skill-eu-ai-act` | Classificeert de assistent onder de EU AI Act en brengt de bijbehorende verplichtingen in beeld |
+| `skill-Algoritmeregister` | Begeleidt publicatie in het Algoritmeregister: categorie bepalen, velden verzamelen, teksten opstellen |
+| `skill-privacy-anonymisation` | Stelt de AVG-grondslag vast, scheidt persoonlijke en inzichtenlaag en bepaalt wanneer een DPIA nodig is |
+| `skill-human-in-the-loop` | Kiest het juiste toezichtsmodel en bouwt override- en escalatiepaden in architectuur en UI |
+| `skill-iama` | Bepaalt of een IAMA, DPIA of FRIA nodig is en routeert naar de juiste functionarissen |
+| `skill-rag-pijplijn` | Begeleidt de bouw van een RAG-pipeline: bronkwaliteit, chunking, hybride retrieval en bronvermelding |
+| `skill-rag-evaluatie` | Maakt RAG-kwaliteit meetbaar met een golden dataset, RAGAS-metrics en een LLM-judge als CI-gate |
+| `skill-kleinste-model` | Splitst de assistent op in taken en kiest per taak het kleinste model dat volstaat |
+| `skill-llmops-monitoring` | Richt observability in voor productie: kwaliteitsmeting, kostenmonitoring, logging en feedbackloop |
+| `skill-ui-huisstijl` | Vertaalt de huisstijl van de organisatie naar NL Design System design tokens |
+| `skill-wcag` | Toetst de gebruikersinterface aan WCAG 2.2 AA: contrast, toetsenbord, schermlezer en focusbeheer |
 
 ---
 
